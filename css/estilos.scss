@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200..1000&family=Open+Sans:wght@300..800&display=swap" rel="stylesheet');
+
+$tipografia1:  'Nunito', sans-serif;
+$tipografia2:  'Open Sans', sans-serif;
+$color-primario: rgb(0, 0, 0);
+
+:root{
+    --bs-body-bg: #ffffff;
+    --bs-primary-bg-subtle:transparent;
+   
+   
+  }
+
+
+  .btn-outline-success{
+
+    --bs-btn-border-color: rgb(255, 255, 255);
+    --bs-btn-hover-bg: rgb(255, 255, 255); 
+
+
+  }
+
+
+.container-fluid {
+  font-family: $tipografia2;
+}
+
+a {
+  font-family: $tipografia2;
+}
+
+body {
+font-family: $tipografia1;
+
+}
+
+h3 {
+  font-family: $tipografia2;
+}
+
+
+.carousel-indicators [data-bs-target]{
+
+background-color: $color-primario;
+
+
+}
+
+
+.carousel-caption {
+
+
+    color: $color-primario;
+    background-color: white;
+}
+
+
+.carousel-control-next-icon {
+
+background-image: url(../imagenes/right-arrow_271228.png);
+
+}
+
+
+.carousel-control-prev-icon {
+
+    background-image: url(../imagenes/left-arrow_154696.png);
+    
+    }
+
+
+@media (max-width: 768px){
+
+header { height: auto;}
+
+
+
+}
+
+
